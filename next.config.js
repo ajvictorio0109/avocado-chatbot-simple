@@ -1,4 +1,6 @@
 module.exports = {
-  output: 'standalone',
-  trailingSlash: true
+  output: 'export',
+  trailingSlash: true,
+  basePath: '/avocado-chatbot-simple', // avocado-chatbot-simple
+  assetPrefix: '/avocado-chatbot-simple/', // avocado-chatbot-simple
 }
