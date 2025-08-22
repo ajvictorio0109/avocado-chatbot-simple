@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function SimpleChat() {
+export default function Home() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
 
@@ -10,7 +10,7 @@ export default function SimpleChat() {
       
       setTimeout(() => {
         setMessages(prev => [...prev, { 
-          text: "Hello! I'm Team Avocado's training bot. How can I help you today?", 
+          text: "Hello! I'm Team Avocado's training bot! 🥑", 
           sender: 'bot' 
         }]);
       }, 500);
